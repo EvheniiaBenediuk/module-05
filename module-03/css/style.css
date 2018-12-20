@@ -16,12 +16,9 @@
   width: 868px;
   margin: 0 auto;
 }
-h1{
-    
-}
 .header_main_nav {
   padding-top: 100px;
-  padding-bottom: 164px;
+  padding-bottom: 100px;
 }
 .nav_list{
   font-size: 0px;
@@ -51,7 +48,7 @@ a:hover {
 /* MAIN */
 .main{
   font-size: 0px;
-  padding-bottom: 50px;
+  padding-bottom: 90px;
 }
 .container {
   width: 420px;
