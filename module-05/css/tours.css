@@ -1,10 +1,10 @@
 .wrapper_main {
     width: 1349px;
-    margin: 0 auto;
   }
   .img_tours {
     position: relative;
-    width: 1349px;
+    width: 1663px;
+    height: 600px;
   }
   .slider_left::before {
     content: "\2039";
@@ -53,8 +53,8 @@
   }
   .black_bg {
     background: rgba(0%, 0%, 0%, 0.5);
-    width: 1349px;
-    height: 492px;
+    width: 1663px;
+    height: 600px;
     z-index: 1;
     position: absolute;
   }

@@ -4,8 +4,8 @@
   
   .wrapper_collection {
     background: #e9f0fd;
-    width: 1349px;
-    margin: 0 auto;
+    width: 1663px;
+   
   }
   .title_collection {
     text-transform: uppercase;
@@ -27,7 +27,7 @@
   .collection_list {
     font-size: 0;
     margin: 0 auto;
-    width: 85%;
+    width: 1110px;
   }
   .collection_card {
     float: left;
