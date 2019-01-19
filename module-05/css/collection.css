@@ -1,0 +1,176 @@
+.main {
+    font-size: 0px;
+  }
+  
+  .wrapper_collection {
+    background: #e9f0fd;
+    width: 1349px;
+    margin: 0 auto;
+  }
+  .title_collection {
+    text-transform: uppercase;
+    color: #515151;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 90px;
+  }
+  .title_collection::after {
+    content: "";
+    border-bottom: 6px solid #1abc9c;
+    display: block;
+    width: 150px;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+  }
+  .collection_list {
+    font-size: 0;
+    margin: 0 auto;
+    width: 85%;
+  }
+  .collection_card {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 95px;
+    width: 255px;
+    color: #ffffff;
+    position: relative;
+  }
+  .collection_card:last-child {
+    margin-right: 0;
+  }
+  .img_collection {
+    cursor: pointer;
+  }
+  .modal_container {
+    background: rgba(0%, 0%, 0%, 0.5);
+    width: 235px;
+    height: 260px;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: none;
+  }
+  .collection_card:hover .modal_container {
+    display: block;
+  }
+  .icons_1 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #ffffff;
+    padding: 10px;
+    display: none;
+  }
+  .collection_card:hover .icons_1 {
+    display: block;
+  }
+  .icons_1:hover {
+    background: #1abc9c;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .icons_2 {
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #ffffff;
+    padding: 10px;
+    display: none;
+  }
+  
+  .collection_card:hover .icons_2 {
+    display: block;
+  }
+  .icons_2:hover {
+    background: #1abc9c;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .icons_3 {
+    position: absolute;
+    top: 30%;
+    left: 69%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #ffffff;
+    padding: 10px;
+    display: none;
+  }
+  
+  .collection_card:hover .icons_3 {
+    display: block;
+  }
+  .icons_3:hover {
+    background: #1abc9c;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .icons_4 {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #ffffff;
+    padding: 10px 115px 10px 15px;
+    display: none;
+  }
+  
+  .collection_card:hover .icons_4 {
+    display: block;
+  }
+  .icons_4:hover {
+    background: #1abc9c;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .buy {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    display: none;
+  }
+  
+  .collection_card:hover .buy {
+    display: block;
+  }
+  .buy:hover {
+    cursor: pointer;
+  }
+  .name {
+    padding: 10px 0 10px 20px;
+    width: 174px;
+    background: #323232;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  .price {
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+    background: #8c8c8c;
+    transition: 0.5s;
+  }
+  .price::before {
+    content: "\0024";
+    font-size: 18px;
+  }
+  .collection_card:hover .name {
+    background: #1abc9c;
+    cursor: pointer;
+  }
+  .collection_card:hover .price {
+    background: #7fd9c7;
+    cursor: pointer;
+  }
