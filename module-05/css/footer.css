@@ -14,6 +14,3 @@
   .designed {
     color: #1abc9c;
   }
-  .copyright::after {
-    content: "\00A9";
-  }
