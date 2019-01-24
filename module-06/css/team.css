@@ -141,24 +141,79 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d88988', end
     display: flex;
     justify-content: space-around;
 }
-.name {
+.name_1 {
     padding: 15px 0px 5px;
     text-transform: uppercase;
     font-family: var(--robotoFont);
     font-weight: 100;
     font-size: 14px;
+    position: absolute;
+    z-index: 999;
+    top: 86%;
+    left: 15%;
+    transform: translateX(-50%) translateY(-50%);
 }
-.position{
+.position_1{
     font-family: var(--robotoFont);
     font-size: 15px;
     color: var(--colorText);
+    position: absolute;
+    z-index: 999;
+    top: 89%;
+    left: 15%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.name_2{
+    padding: 15px 0px 5px;
+    text-transform: uppercase;
+    font-family: var(--robotoFont);
+    font-weight: 100;
+    font-size: 14px;
+    position: absolute;
+    z-index: 999;
+    top: 86%;
+    left: 49%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.position_2{
+    font-family: var(--robotoFont);
+    font-size: 15px;
+    color: var(--colorText);
+    position: absolute;
+    z-index: 999;
+    top: 89%;
+    left: 49%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.name_3{
+    padding: 15px 0px 5px;
+    text-transform: uppercase;
+    font-family: var(--robotoFont);
+    font-weight: 100;
+    font-size: 14px;
+    position: absolute;
+    z-index: 999;
+    top: 86%;
+    left: 83%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.position_3{
+    font-family: var(--robotoFont);
+    font-size: 15px;
+    color: var(--colorText);
+    position: absolute;
+    z-index: 999;
+    top: 89%;
+    left: 83%;
+    transform: translateX(-50%) translateY(-50%);
+
 }
 .team_section::after{
     content:"";
     border-top: 1px solid var(--colorText);
     width: 1200px;
     display: block;
-    margin-top: 90px;
+    margin-top: 160px;
     /* position: absolute;
     top: 190%;
     left: 50%;
