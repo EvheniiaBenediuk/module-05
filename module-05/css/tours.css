@@ -1,41 +1,39 @@
 .wrapper_main {
     width: 1349px;
   }
-  .img_tours {
+  .wrapper_main {
+    background-image: url(/img/1.jpg);
     position: relative;
     width: 1663px;
     height: 600px;
   }
-  .slider_left::before {
+  .slider{
+    width: 100px;
+    height: 100px;
+    background: rgba(85, 162, 144, 0.5);
+    position: absolute;
+    top: 50%;
+    text-decoration: none;
+    border: 0px;
+    z-index: 2;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .slider_ctrl-next::before {
     content: "\2039";
     color: #ffffff;
     font-size: 70px;
     display: block;
     margin: 0px 40px;
   }
-  .slider_left {
-    width: 100px;
-    height: 100px;
-    background: rgba(85, 162, 144, 0.5);
-    position: absolute;
-    top: 52%;
+  .slider_ctrl-next{
     left: 15%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 2;
-    border: none;
   }
-  .slider_right {
-    width: 100px;
-    height: 100px;
+  .slider_ctrl-prev {
     background: rgba(85, 162, 144, 0.5);
     position: absolute;
-    top: 52%;
     left: 85%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 2;
-    border: none;  
   }
-  .slider_right::before {
+  .slider_ctrl-prev::before {
     content: "\203A";
     color: #ffffff;
     font-size: 70px;

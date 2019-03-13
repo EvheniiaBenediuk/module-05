@@ -44,9 +44,6 @@
   .logo_link{
     display: block;
   }
-  .list_menu {
-    float: right;
-  }
   .item_menu {
     float: left;
     margin-right: 35px;
@@ -60,8 +57,9 @@
     font-size: 14px;
     font-weight: 700;
     display: block;
+    transition: 1s;
+
   }
   .link_menu:hover {
     color: #1abc9c;
-    transition: 1s;
   }

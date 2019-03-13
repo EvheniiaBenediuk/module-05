@@ -4,9 +4,9 @@
   
   .collection {
     background: #e9f0fd;
-    width: 1663px;
      padding-top: 90px;
-   
+     padding-bottom: 95px;
+
   }
   .title_collection {
     text-transform: uppercase;
@@ -32,7 +32,6 @@
   .collection_card {
     float: left;
     margin-right: 30px;
-    margin-bottom: 95px;
     width: 255px;
     color: #ffffff;
     position: relative;
