@@ -42,8 +42,7 @@
   .img_collection {
     cursor: pointer;
   }
-  .modal_container {
-    background: rgba(0%, 0%, 0%, 0.5);
+  .overlay {
     width: 235px;
     height: 260px;
     position: absolute;
@@ -52,8 +51,10 @@
     transform: translateX(-50%) translateY(-50%);
     display: none;
   }
-  .collection_card:hover .modal_container {
+  .collection_card:hover .overlay {
     display: block;
+    background: rgba(0%, 0%, 0%, 0.5);
+
   }
   .icons_1 {
     position: absolute;
