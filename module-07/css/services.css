@@ -32,13 +32,13 @@
   margin: 0 auto;
 }
 .trash {
-  background-image: url(/img/icon-basket.png);
+  background-image: url(../img/icon-basket.png);
 }
 .laptop {
-  background-image: url(/img/icon-laptop.png);
+  background-image: url(../img/icon-laptop.png);
 }
 .locked {
-  background-image: url(/img/icon-locked.png);
+  background-image: url(../img/icon-locked.png);
 }
 .name {
   font-family: "Montserrat-bold", serif;

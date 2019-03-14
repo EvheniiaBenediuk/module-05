@@ -1,6 +1,6 @@
 .contact_us {
   background-color: var(--background-color);
-  background-image: url(/img/Map\ Image.png);
+  background-image: url(../img/Map\ Image.png);
   background-repeat: no-repeat;
   padding-bottom: 110px;
   padding-top: 105px;
@@ -9,7 +9,7 @@
 }
 .title_contact {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat-bold", sans-serif;
   text-transform: uppercase;
   font-size: var(--title-size);
   padding-bottom: 15px;
