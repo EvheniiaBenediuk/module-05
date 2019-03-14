@@ -94,27 +94,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d88988', end
     cursor: pointer;
 }
 .facebook{
-    background-image: url(/img/facebook.png);
+    background-image: url(../img/facebook.png);
     top: 50%;
     left: 70%;
     transform: translateX(-154%) translateY(-50%)
     
 }
 .twitter {
-    background-image: url(/img/twitter.png);
+    background-image: url(../img/twitter.png);
     top: 709%;
     left: 70%;
     transform: translateX(-50%) translateY(-50%)
 }
 .pinterest {
-    background-image: url(/img/pinterest.png);
+    background-image: url(../img/pinterest.png);
     top: 50%;
     left: 50%;
     transform: translateX(53%) translateY(-50%)
     
 }
 .instagram {
-    background-image: url(/img/instagram.png);
+    background-image: url(../img/instagram.png);
     top: 50%;
     left: 50%;
     transform: translateX(155%) translateY(-50%)
