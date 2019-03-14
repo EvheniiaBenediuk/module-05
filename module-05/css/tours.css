@@ -4,7 +4,7 @@
   .wrapper_main {
     background-image: url(../img/1.jpg);
     position: relative;
-    width: 1663px;
+    width: 1803px;
     height: 700px;
   }
   .slider{
@@ -53,7 +53,7 @@
   }
   .black_bg {
     background: rgba(0%, 0%, 0%, 0.5);
-    width: 1663px;
+    width: 1803px;
     height: 700px;
     z-index: 1;
     position: absolute;
