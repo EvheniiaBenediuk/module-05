@@ -26,9 +26,12 @@ html{
     --mainColor: #95e1d3;
     --semi-color: #f38181;
     --colorText: #b3b3b3;
+    --colorGray:#333333;
+    --color-placeholder: #ccc;
     --mainFont: 'Montserrat', sans-serif;
-    --cursiveFont: 'Kaushan Script', cursive;
+    --cursiveFont:'Merriweather', serif;
     --robotoFont: 'Roboto', sans-serif; 
+    --robotoItalic: 'Roboto', italic;
     --titleFontSize: 30px;
 }
 .wrapper {

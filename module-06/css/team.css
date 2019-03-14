@@ -3,12 +3,14 @@
 }
 .text {
     padding-top: 0px;
+    font-family: var(--cursiveFont);
 }
 .description{
     text-align: center;
     padding-bottom: 90px;
     padding-top: 40px;
     font-family: var(--robotoFont);
+    color: #999999;
 }
 .team_container {
     display: flex;
@@ -37,7 +39,7 @@
     cursor: pointer;
     transition: 200ms linear;
 
-    background: rgba(216,137,136,1);
+background: rgba(216,137,136,1);
 background: -moz-linear-gradient(top, rgba(216,137,136,1) 0%, rgba(224,206,133,0.81) 54%, rgba(224,206,133,0.65) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(216,137,136,1)), color-stop(54%, rgba(224,206,133,0.81)), color-stop(100%, rgba(224,206,133,0.65)));
 background: -webkit-linear-gradient(top, rgba(216,137,136,1) 0%, rgba(224,206,133,0.81) 54%, rgba(224,206,133,0.65) 100%);
@@ -54,7 +56,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d88988', end
     max-width: 100%;
     height: 100%; 
     z-index: 1;
-
 }
 .list_icons{
     display: flex;
@@ -159,6 +160,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d88988', end
     font-size: 15px;
     color: var(--colorText);
     position: absolute;
+    font-style: italic;
 }
 
 .team_section::after{
@@ -167,4 +169,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d88988', end
     width: 1200px;
     display: block;
     margin-top: 160px;
+}
+::-webkit-input-placeholder {color:var(--color-placeholder);}
+::-moz-placeholder          {color:var(--color-placeholder);}/* Firefox 19+ */
+:-moz-placeholder           {color:var(--color-placeholder);}/* Firefox 18- */
+:-ms-input-placeholder      {color:var(--color-placeholder);}
+
+.text_button{
+font-family: var(--robotoItalic);
+font-style: italic;
 }
