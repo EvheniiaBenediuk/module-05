@@ -2,7 +2,7 @@
     width: 1349px;
   }
   .wrapper_main {
-    background-image: url(/img/1.jpg);
+    background-image: url(../img/1.jpg);
     position: relative;
     width: 1663px;
     height: 700px;
