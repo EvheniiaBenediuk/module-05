@@ -1,0 +1,93 @@
+.contact_us {
+  background-color: var(--background-color);
+  background-image: url(/img/Map\ Image.png);
+  background-repeat: no-repeat;
+  padding-bottom: 110px;
+  padding-top: 105px;
+  background-position-x: 100%;
+  background-position-y: 75%;
+}
+.title_contact {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: var(--title-size);
+  padding-bottom: 15px;
+  color: var(--color-white);
+}
+.descrioption {
+  text-align: center;
+  font-family: "DroidSerif", serif;
+  padding-bottom: 80px;
+  color: var(--color-description);
+}
+.form_contact {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 328px;
+  font-family: "Montserrat-bold", serif;
+  font-size: var(--min-size);
+  width: 1070px;
+  margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+  color: var(--color-form);
+}
+::-moz-placeholder {
+  color: var(--color-form);
+} /* Firefox 19+ */
+:-moz-placeholder {
+  color: var(--color-form);
+} /* Firefox 18- */
+:-ms-input-placeholder {
+  color: var(--color-form);
+}
+::-webkit-input-placeholder::after {
+  content: "*";
+  color: red;
+}
+.text_form {
+  width: 455px;
+  flex-wrap: nowrap;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  height: 50px;
+  border-radius: 2%;
+  padding-left: 20px;
+}
+.massages {
+  text-transform: uppercase;
+  border-radius: 2%;
+  margin-bottom: 25px;
+  padding: 15px 315px 200px 20px;
+}
+.text_form:invalid{
+    border: 1px solid red;
+}
+.text_form:valid{
+  border: 1px solid green;
+}
+.massages:invalid{
+  border: 1px solid red;
+}
+.massages:valid{
+  border: 1px solid green;
+}
+
+.button_send {
+  text-decoration: none;
+  border: 0px;
+  padding: 25px 40px;
+  border-radius: 2%;
+  text-transform: uppercase;
+  color: var(--color-white);
+  background: var(--main-color);
+  font-size: var(--subtitle-size);
+  font-family: "Montserrat-bold";
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}

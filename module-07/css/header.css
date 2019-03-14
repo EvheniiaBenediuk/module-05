@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+.page_header {
+  display: flex;
+  padding-bottom: 90px;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Wisdom";
+  color: var(--main-color);
+  font-size: var(--logo-size);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.list_menu {
+  display: flex;
+  align-items: center;
+  width: 475px;
+  justify-content: space-between;
+}
+.link_menu {
+  font-family: "Montserrat-regular", serif;
+  text-decoration: none;
+  color: inherit;
+  transition: 200ms;
+  text-transform: uppercase;
+  font-size: var(--min-size);
+}
+.link_menu:hover {
+  color: var(--main-color);
+}
+.title_services {
+  text-align: center;
+  font-size: var(--title-size);
+}
+.description_services {
+  color: var(--color-description);
+  font-size: var(--description-size);
+}
+.massege {
+  justify-content: flex-end;
+}
