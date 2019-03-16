@@ -13,8 +13,7 @@
     color: #999999;
 }
 .team_container {
-    display: flex;
-    justify-content:space-around;
+    
 }
 .team_card {
     background: #95e1d3;
