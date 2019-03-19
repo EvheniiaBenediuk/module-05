@@ -13,7 +13,8 @@
   padding-bottom: 90px;
   justify-content: space-between;
 }
-.logo {
+.logo_link {
+  margin: 0;
   font-family: "Wisdom";
   color: var(--main-color);
   font-size: var(--logo-size);
@@ -35,6 +36,7 @@
   transition: 200ms;
   text-transform: uppercase;
   font-size: var(--min-size);
+  display: block;
 }
 .link_menu:hover {
   color: var(--main-color);

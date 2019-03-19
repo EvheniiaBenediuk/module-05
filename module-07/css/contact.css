@@ -24,12 +24,10 @@
 .form_contact {
   text-transform: uppercase;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 328px;
   font-family: "Montserrat-bold", serif;
   font-size: var(--min-size);
-  width: 1070px;
+  width: 955px;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -49,8 +47,14 @@
   content: "*";
   color: red;
 }
+.wrapper_form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ margin-right: 25px; 
+}
 .text_form {
-  width: 455px;
+  width: 435px;
   flex-wrap: nowrap;
   text-transform: uppercase;
   margin-bottom: 36px;
@@ -62,7 +66,9 @@
   text-transform: uppercase;
   border-radius: 2%;
   margin-bottom: 25px;
-  padding: 15px 315px 200px 20px;
+  padding: 15px 259px 200px 20px;
+  height: 12px;
+  overflow: hidden;
 }
 .text_form:invalid{
     border: 1px solid red;

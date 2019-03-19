@@ -10,8 +10,8 @@
 <body>
     <div class="wrapper">
         <header class="page_header">
-            <h1>
-            <a href="#" class="logo">Golden</a>
+            <h1 class="logo">
+            <a href="#" class="logo_link">Golden</a>
             </h1>
                 <nav class="menu">
                     <ul class="list_menu">
@@ -66,13 +66,14 @@
                 <p class="descrioption">Proin iaculis purus consequat sem cure. </p>
                
                 <form action="#" class="form_contact" method="POST">
+                    <div class="wrapper_form">
                     <input type="text" placeholder="Your name*" name="name" class="text_form" required>
                     <input type="email" placeholder="Your email*" name="pass" class="text_form" required>
                     <input type="text" placeholder="Subject" class="text_form">
-                    <input type="text" placeholder="Your Massege*" class="massages" required>
+                </div>
+                    <textarea type="text" placeholder="Your Massege*" class="massages" required></textarea>
                     <button type="submit" class="button_send">Send massage</button>
                 </form>
-                <!-- <button type="button" class="button_send">Send massage</button> -->
             </section>
         </main>
         
