@@ -53,6 +53,7 @@ html {
 }
 .item_header {
   margin-right: 55px;
+  display: block;
 }
 .item_link {
   font-size: 14px;

@@ -28,12 +28,15 @@
 .item_services {
   width: 305px;
   padding-bottom: 80px;
-  padding-right: 20px;
+  padding-right: 80px;
 }
 .seat {
   text-transform: uppercase;
   font-size: 14px;
   font-family: var(--mainFont);
+  display: block;
+  margin-left: 65px;
+  margin-top: -37px;
 }
 .icons_services {
   margin-right: 30px;
@@ -42,11 +45,12 @@
   padding-right: 0;
 }
 .description_services {
-  width: 310px;
   font-size: 15px;
   color: var(--colorText);
   font-size: 15px;
-  display: inline-block;
   padding-top: 5px;
   font-family: var(--robotoFont);
+  margin-left: 65px;
+  padding-top: 20px;
+  width: 240px;
 }
