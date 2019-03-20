@@ -24,6 +24,7 @@
   padding-top: 80px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .item_services {
   width: 305px;
