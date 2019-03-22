@@ -12,7 +12,7 @@
   padding-top: 0px;
   font-family: var(--cursiveFont);
 }
-.wrap_team {
+.team_container{
   display: flex;
   justify-content: space-around;
 }
@@ -64,7 +64,7 @@
   width: 224px;
   list-style: none;
 }
-.icon {
+/* .icon {
   display: block;
   width: 55px;
   height: 55px;
@@ -97,11 +97,39 @@
 }
 .instagram:hover {
   background-color: #95e1d3;
-}
+} */
 
-.wrapper_name_position {
-  display: flex;
-  justify-content: space-around;
+.icon::after{
+  display: inline-block;
+  position: absolute;
+  background-color: #fce38a;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  transition: 1s all;
+}
+.icon:hover::after{
+  background: #95e1d3;
+}
+.facebook::after{
+  content: url(/img/facebook.png);
+  top: 50%;
+  left: 9%;
+}
+.twitter::after{
+  content: url(/img/twitter.png);
+  padding: 12px 15px;
+}
+.pinterest::after{
+  content: url(/img/pinterest.png);
+  padding: 10px 15px;
+  top: 50%;
+  left: 58%;
+}
+.instagram::after{
+  content: url(/img/instagram.png);
+  padding: 10px 15px;
+  top: 50%;
+  left: 83%;
 }
 .name {
   margin-top: 20px;
@@ -109,6 +137,8 @@
   font-family: var(--robotoFont);
   font-weight: 100;
   font-size: 14px;
+  display: flex;
+  justify-content: space-around;
 }
 .position {
   margin-top: 15px;
@@ -116,6 +146,8 @@
   font-size: 15px;
   color: var(--colorText);
   font-style: italic;
+  display: flex;
+  justify-content: space-around;
 }
 
 .team_section::after {

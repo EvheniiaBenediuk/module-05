@@ -39,8 +39,15 @@ html {
 .page_header {
   padding-bottom: 110px;
 }
+.nav_header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.logo{
+  margin: 0;
+}
 .logo_site {
-  font-size: 30px;
   color: var(--mainColor);
   font-family: var(--mainFont);
   font-size: 30px;
@@ -48,18 +55,21 @@ html {
 .list_header {
   display: flex;
   justify-content: flex-end;
-  margin-top: -43px;
   text-transform: uppercase;
 }
 .item_header {
   margin-right: 55px;
   display: block;
 }
+.item_header:last-child{
+  margin-right: 0;
+}
 .item_link {
   font-size: 14px;
   color: var(--mainColor);
   font-family: var(--mainFont);
   transition: 200ms linear;
+  display: block;
 }
 .item_link:hover {
   color: #f38181;

@@ -30,7 +30,28 @@
   width: 305px;
   padding-bottom: 80px;
   padding-right: 80px;
+  display: inline-block;
 }
+.photography_item::before{
+  content: url(/img/icons_1.png);
+}
+.web_desing_item::before{
+  content: url(/img/icons_2.png);
+}
+.creativity_item::before{
+  content: url(/img/icons_3.png);
+}
+.seo_item::before{
+  content: url(/img/icons_4.png);
+}
+.css_html_item::before{
+  content: url(/img/icons_5.png);
+}
+
+.digital_item::before{
+  content: url(/img/icons_6.png);
+}
+
 .seat {
   text-transform: uppercase;
   font-size: 14px;
