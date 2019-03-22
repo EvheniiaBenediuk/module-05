@@ -72,18 +72,18 @@
 }
 .icon_tv{
     left: 38%;
-    top: 62%;
+    top: 63%;
 }
 .icon_chemistry{
     left: 38%;
-    top: 81%;
+    top: 82%;
 }
 .icon_coffee{
-    top: 62%;
+    top: 63%;
     left: 73%;
 }
 .icon_telegram{
-    top: 81%;
+    top: 82%;
     left: 73%;
 }
 }
@@ -98,7 +98,6 @@
         left: 17%;
         }
     .icon_chemistry{
-        
         left: 67%;
         }
     .icon_coffee{
@@ -118,26 +117,28 @@
      .partner_section{
          padding-bottom: 7rem;
      }
+     .item_partner{
+        width: 18%;
+    }
     .icons{
         top: 86%;
             }
         .icon_tv{
-            left: 34%;
+            left: 26%;
                     }
         .icon_chemistry{
-            left: 63%;    
+            left: 44%;  
                 }
         .icon_coffee{
-            left: 48%;
+            left: 62%;
         }
         .icon_telegram{
-            left: 77%;
+            left: 80%;
                 }
         .list_partner{
             display: flex;
             flex-wrap: nowrap;
             justify-content: center;
-            padding-left: 7rem;
         }
  }
  
