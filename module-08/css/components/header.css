@@ -7,7 +7,7 @@
     margin:0 auto;
 }
 .overlay{
-background-image: linear-gradient(to right, rgba(13%, 12%, 11%, 0.5), rgba(13%, 12%, 11%, 0.5)), url('../../../module-08/img/1.jpg');
+background-image: linear-gradient(to right, rgba(13%, 12%, 11%, 0.3), rgba(13%, 12%, 11%, 0.3)), url('../../../module-08/img/1.jpg');
 background-repeat: no-repeat;
 background-position-x:50%;
 background-position-y:50%;
