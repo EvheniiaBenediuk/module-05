@@ -64,7 +64,7 @@
   width: 224px;
   list-style: none;
 }
-/* .icon {
+.icon {
   display: block;
   width: 55px;
   height: 55px;
@@ -74,16 +74,16 @@
   transition: background-color 0.3s linear;
 }
 .facebook {
-  background-image: url(../img/facebook.png);
+  background-image: url(/img/facebook.png);
 }
 .twitter {
-  background-image: url(../img/twitter.png);
+  background-image: url(/img/twitter.png);
 }
 .pinterest {
-  background-image: url(../img/pinterest.png);
+  background-image: url(/img/pinterest.png);
 }
 .instagram {
-  background-image: url(../img/instagram.png);
+  background-image: url(/img/instagram.png);
 }
 
 .facebook:hover {
@@ -97,39 +97,6 @@
 }
 .instagram:hover {
   background-color: #95e1d3;
-} */
-
-.icon::after{
-  display: inline-block;
-  position: absolute;
-  background-color: #fce38a;
-  transform: translate(-50%, -50%);
-  padding: 10px 20px;
-  transition: 1s all;
-}
-.icon:hover::after{
-  background: #95e1d3;
-}
-.facebook::after{
-  content: url(../../module-06/img/facebook.png);
-  top: 50%;
-  left: 9%;
-}
-.twitter::after{
-  content: url(../../module-06/img/twitter.png);
-  padding: 12px 15px;
-}
-.pinterest::after{
-  content: url(../../module-06/img/pinterest.png);
-  padding: 10px 15px;
-  top: 50%;
-  left: 58%;
-}
-.instagram::after{
-  content: url(../../module-06/img/instagram.png);
-  padding: 10px 15px;
-  top: 50%;
-  left: 83%;
 }
 .name {
   margin-top: 20px;
