@@ -9,7 +9,7 @@
     max-width: 124rem;
     position: relative;
 }
-.overflow{
+.overlay{
 background-color: rgba(0, 0, 0, 0.1);
 position: absolute;
 top: 15%;
@@ -64,7 +64,7 @@ height: 33%;
     .wrapper{
         max-width: 124rem;
     }
-    .overflow{
+    .overlay{
         top: 21%;
         height: 43%;
     }
@@ -83,7 +83,7 @@ height: 33%;
     .title{
         font-size: 4.2rem;
     }
-.overflow {
+.overlay {
     top: 26%;
     height: 53%;
 }
@@ -98,7 +98,7 @@ height: 33%;
         height: 80rem;
         max-width: 144rem;
     } 
-    .overflow{
+    .overlay{
         height: 56rem;
         margin: 0;
         top: 34%;
