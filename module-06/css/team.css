@@ -111,22 +111,22 @@
   background: #95e1d3;
 }
 .facebook::after{
-  content: url(/img/facebook.png);
+  content: url(../../module-06/img/facebook.png);
   top: 50%;
   left: 9%;
 }
 .twitter::after{
-  content: url(/img/twitter.png);
+  content: url(../../module-06/img/twitter.png);
   padding: 12px 15px;
 }
 .pinterest::after{
-  content: url(/img/pinterest.png);
+  content: url(../../module-06/img/pinterest.png);
   padding: 10px 15px;
   top: 50%;
   left: 58%;
 }
 .instagram::after{
-  content: url(/img/instagram.png);
+  content: url(../../module-06/img/instagram.png);
   padding: 10px 15px;
   top: 50%;
   left: 83%;
