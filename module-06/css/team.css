@@ -74,16 +74,16 @@
   transition: background-color 0.3s linear;
 }
 .facebook {
-  background-image: url(/img/facebook.png);
+  background-image: url(../../module-06/img/facebook.png);
 }
 .twitter {
-  background-image: url(/img/twitter.png);
+  background-image: url(../../module-06/img/twitter.png);
 }
 .pinterest {
-  background-image: url(/img/pinterest.png);
+  background-image: url(../../module-06/img/pinterest.png);
 }
 .instagram {
-  background-image: url(/img/instagram.png);
+  background-image: url(../../module-06/img/instagram.png);
 }
 
 .facebook:hover {

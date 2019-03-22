@@ -33,19 +33,19 @@
   display: inline-block;
 }
 .photography_item::before{
-  content: url(/img/icons_1.png);
+  content: url(../../module-06/img/icons_1.png);
 }
 .web_desing_item::before{
-  content: url(/img/icons_2.png);
+  content: url(../../module-06/img/icons_2.png);
 }
 .creativity_item::before{
-  content: url(/img/icons_3.png);
+  content: url(../../module-06/img/icons_3.png);
 }
 .seo_item::before{
-  content: url(/img/icons_4.png);
+  content: url(../../module-06/img/icons_4.png);
 }
 .css_html_item::before{
-  content: url(/img/icons_5.png);
+  content: url(../../module-06/img/icons_5.png);
 }
 
 .digital_item::before{
