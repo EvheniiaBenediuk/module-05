@@ -1,0 +1,8 @@
+@import "../../../module-08/css/libs/fonts.css";
+@import "../../../module-08/css/libs/vars.css";
+@import "../../../module-08/css/libs/utils.css";
+@import "../../../module-08/css/libs/normalize.css";
+
+@import "../../../module-08/css/components/header.css";
+@import "../../../module-08/css/components/hero.css";
+@import "../../../module-08/css/components/parther.css";

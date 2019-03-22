@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Montserrat_regular';
+    font-style: normal;
+    font-weight: 400;
+         src: url('../../../module-08/css/fonts/montserrat/montserrat-v12-latin-regular.woff2') format('woff2'), 
+         url('../../../module-08/css/fonts/montserrat/montserrat-v12-latin-regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Montserrat_700';
+    font-style: normal;
+    font-weight: 700;
+         src: url('../../../module-08/css/fonts/montserrat/montserrat-v12-latin-700.woff2') format('woff2'), 
+         url('../../../module-08/css/fonts/montserrat/montserrat-v12-latin-700.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto_300';
+    font-style: normal;
+    font-weight: 300;
+         src: url('../../../module-08/css/fonts/roboto/roboto-v18-latin-300.woff2') format('woff2'), 
+         url('../../../module-08/css/fonts/roboto/roboto-v18-latin-300.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto_regular';
+    font-style: normal;
+    font-weight: 400;
+         src: url('../../../module-08/css/fonts/roboto/roboto-v18-latin-regular.woff2') format('woff2'), 
+         url('../../../module-08/css/fonts/roboto/roboto-v18-latin-regular.woff') format('woff');
+  }

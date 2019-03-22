@@ -1,0 +1,33 @@
+.hero_section{
+    padding-bottom: 20rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: var(--Montserrat_700);
+    margin-bottom: 2.2rem; 
+    font-size: 3rem;
+    color: var(--white);
+}
+.description{
+    font-family: var(--Roboto_300);
+    padding-bottom: 2rem; 
+    font-size: 1.8rem;
+    width: 21.6rem;
+    margin: 0 auto;
+    color: var(--white);
+}
+.full_button{
+    background: var(--red);
+    color: var(--white);
+}
+@media screen and (min-width: 768px){
+    .title{
+        font-size: 4.2rem;
+    }
+    .description{
+        width: 40rem;
+        font-size: 2.4rem;
+    }
+}
