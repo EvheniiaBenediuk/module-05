@@ -1,0 +1,16 @@
+.wrapper-footer {
+  background: #323232;
+  min-height: 90px;
+  position: relative;
+}
+.text-footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.designed {
+  color: #1abc9c;
+}

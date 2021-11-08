@@ -1,0 +1,174 @@
+.main {
+  font-size: 0px;
+}
+
+.collection {
+  background: #e9f0fd;
+  padding-top: 90px;
+  padding-bottom: 95px;
+}
+.title-collection {
+  text-transform: uppercase;
+  color: #515151;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.title-collection::after {
+  content: '';
+  border-bottom: 6px solid #1abc9c;
+  display: block;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.collection-list {
+  margin: 0 auto;
+  width: 1110px;
+}
+.collection-card {
+  float: left;
+  margin-right: 30px;
+  width: 255px;
+  color: #ffffff;
+  position: relative;
+}
+.collection-card:last-child {
+  margin-right: 0;
+}
+.img-collection {
+  cursor: pointer;
+}
+.overlay {
+  width: 235px;
+  height: 260px;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: none;
+}
+.collection-card:hover .overlay {
+  display: block;
+  background: rgba(0%, 0%, 0%, 0.5);
+}
+.icons-1 {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 1px solid #ffffff;
+  padding: 10px;
+  display: none;
+}
+.collection-card:hover .icons-1 {
+  display: block;
+}
+.icons-1:hover {
+  background: #1abc9c;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.icons-2 {
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 1px solid #ffffff;
+  padding: 10px;
+  display: none;
+}
+
+.collection-card:hover .icons-2 {
+  display: block;
+}
+.icons-2:hover {
+  background: #1abc9c;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.icons-3 {
+  position: absolute;
+  top: 30%;
+  left: 69%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 1px solid #ffffff;
+  padding: 10px;
+  display: none;
+}
+
+.collection-card:hover .icons-3 {
+  display: block;
+}
+.icons-3:hover {
+  background: #1abc9c;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.icons-4 {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 1px solid #ffffff;
+  padding: 10px 115px 10px 15px;
+  display: none;
+}
+
+.collection-card:hover .icons-4 {
+  display: block;
+}
+.icons-4:hover {
+  background: #1abc9c;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buy {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  display: none;
+}
+
+.collection-card:hover .buy {
+  display: block;
+}
+.buy:hover {
+  cursor: pointer;
+}
+.name {
+  padding: 10px 0 10px 20px;
+  width: 174px;
+  background: #323232;
+  display: inline-block;
+  float: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.price {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 15px;
+  background: #8c8c8c;
+  transition: 0.5s;
+}
+.price::before {
+  content: '\0024';
+  font-size: 18px;
+}
+.collection-card:hover .name {
+  background: #1abc9c;
+  cursor: pointer;
+}
+.collection-card:hover .price {
+  background: #7fd9c7;
+  cursor: pointer;
+}
