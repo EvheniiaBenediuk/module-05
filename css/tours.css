@@ -1,5 +1,8 @@
 .wrapper-main {
   background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
   height: 700px;
 }
@@ -27,14 +30,14 @@
   left: 85%;
 }
 .slider-ctrl-next::before {
-  content: '\2039';
+  content: "\2039";
   color: #ffffff;
   font-size: 70px;
   display: block;
   margin: 0px 40px;
 }
 .slider-ctrl-prev::before {
-  content: '\203A';
+  content: "\203A";
   color: #ffffff;
   font-size: 70px;
   display: block;
